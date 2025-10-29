@@ -11,7 +11,7 @@ const logFormat = winston.format.combine(
 const logger = winston.createLogger({
   level: process.env.LOG_LEVEL || 'info',
   format: logFormat,
-  defaultMeta: { service: 'algohire-webhook-system' },
+  defaultMeta: { service: 'algohook' },
   transports: [
     // Console transport for development
     new winston.transports.Console({

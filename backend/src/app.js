@@ -56,7 +56,7 @@ app.get('/health', (req, res) => {
   res.json({
     status: 'ok',
     timestamp: new Date().toISOString(),
-    service: 'algohire-webhook-system',
+    service: 'algohook',
   });
 });
 
@@ -68,7 +68,7 @@ app.use('/api/dashboard', dashboardRoutes);
 // Root endpoint
 app.get('/', (req, res) => {
   res.json({
-    name: 'AlgoHire Webhook Event Relay System',
+    name: 'AlgoHook',
     version: '1.0.0',
     documentation: '/api/docs',
     health: '/health',

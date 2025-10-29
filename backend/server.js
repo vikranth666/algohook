@@ -27,7 +27,7 @@ const PORT = process.env.PORT || 3000;
 
 // Start server
 const server = app.listen(PORT, () => {
-  logger.info(`🚀 AlgoHire Webhook System started on port ${PORT}`);
+  logger.info(`🚀 AlgoHook Webhook System started on port ${PORT}`);
   logger.info(`📝 Environment: ${process.env.NODE_ENV || 'development'}`);
   logger.info(`🔗 API endpoints: http://localhost:${PORT}/api`);
   

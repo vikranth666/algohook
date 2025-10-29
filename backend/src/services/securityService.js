@@ -42,9 +42,9 @@ class SecurityService {
     
     return {
       'Content-Type': 'application/json',
-      'X-AlgoHire-Signature': signature,
-      'X-AlgoHire-Timestamp': timestamp,
-      'User-Agent': 'AlgoHire-Webhook-System/1.0',
+      'X-AlgoHook-Signature': signature,
+      'X-AlgoHook-Timestamp': timestamp,
+      'User-Agent': 'AlgoHook/1.0',
     };
   }
 }

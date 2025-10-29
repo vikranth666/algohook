@@ -23,7 +23,7 @@ export default function Layout({ children }) {
                 <Webhook className="h-5 w-5 text-primary-foreground" />
               </div>
               <div>
-                <h1 className="text-lg font-bold">AlgoHire</h1>
+                <h1 className="text-lg font-bold">AlgoHook</h1>
                 <p className="text-xs text-muted-foreground">Webhook System</p>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function Layout({ children }) {
           {/* Footer */}
           <div className="border-t p-4">
             <div className="text-xs text-muted-foreground">
-              <p className="font-medium mb-1">AlgoHire Webhook System</p>
+              <p className="font-medium mb-1">AlgoHook</p>
               <p>Version 1.0.0</p>
             </div>
           </div>

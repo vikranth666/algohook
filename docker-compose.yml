@@ -3,9 +3,9 @@ version: "3.9"
 services:
   postgres:
     image: postgres:15-alpine
-    container_name: algohire-postgres
+    container_name: algohook-postgres
     environment:
-      POSTGRES_DB: algohire_webhooks
+      POSTGRES_DB: algohook_webhooks
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: your_password
     ports:
@@ -16,7 +16,7 @@ services:
 
   redis:
     image: redis:7-alpine
-    container_name: algohire-redis
+    container_name: algohook-redis
     ports:
       - "6379:6379"
     volumes:

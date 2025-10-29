@@ -24,7 +24,7 @@ function apiKeyAuth(req, res, next) {
   next();
 }
 /**
- * Internal service authentication (for AlgoHire modules)
+ * Internal service authentication (for AlgoHook modules)
  */
 function internalAuth(req, res, next) {
   const serviceToken = req.headers['x-service-token'];
